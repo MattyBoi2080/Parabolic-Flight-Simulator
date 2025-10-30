@@ -34398,7 +34398,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 764e1e18bfaa044ebae86cd5c30b17f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  newGravity: {x: 0, y: -20, z: 0}
+  newGravity: {x: 0, y: 0, z: 0}
 --- !u!4 &1359605327
 Transform:
   m_ObjectHideFlags: 0
@@ -44099,7 +44099,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 2.7439534e+20, z: 3670.774, w: 7.172063e-35}
+  m_BoundingSphereOverride: {x: 1e-45, y: 5.263315e-38, z: 1e-45, w: 9.403955e-38}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
