@@ -13,7 +13,7 @@ public class GlobalGravityChanger3D : MonoBehaviour
     public float regularGravity;
     public float hyperGravity;
     public float microGravity;
-  public float restPeriod;
+    public float restPeriod;
     
     // Start is called before the first frame update
     void Start()
