@@ -34606,7 +34606,7 @@ MonoBehaviour:
   regularGravity: -9.81
   hyperGravity: -17.658
   microGravity: 0
-  restPeriod: 15
+  restPeriod: 30
   Indicator: {fileID: 2089561257}
 --- !u!4 &1359605327
 Transform:
@@ -44308,7 +44308,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 4.2845e-41, y: 2.4e-44, z: 7.206462e+31, w: 717.788}
+  m_BoundingSphereOverride: {x: 3e-44, y: 6e-45, z: -1.0421637e+22, w: 2.9800044e-31}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
