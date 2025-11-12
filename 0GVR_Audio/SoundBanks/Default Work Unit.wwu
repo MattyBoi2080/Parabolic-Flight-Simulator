@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{CDC4B552-3951-46C4-A229-F9042E773585}" SchemaVersion="119">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{CDC4B552-3951-46C4-A229-F9042E773585}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main" ID="{4B43093D-C0F8-4BF4-8405-CD6561CE0C56}">
+					<ObjectInclusionList>
+						<ObjectRef Name="PlayMusic" ID="{653A1C07-1DE0-4502-9258-427E4134B7A7}" WorkUnitID="{839A2D48-FD5D-49AB-AD90-F51A8D01127E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="MugHard" ID="{11E23AFC-9950-4949-983E-F724AF9EDF45}" WorkUnitID="{839A2D48-FD5D-49AB-AD90-F51A8D01127E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="BallHard" ID="{944A7A4E-28D0-49CF-9FD8-2C6757614303}" WorkUnitID="{839A2D48-FD5D-49AB-AD90-F51A8D01127E}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

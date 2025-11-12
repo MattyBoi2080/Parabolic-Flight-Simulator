@@ -1,0 +1,29 @@
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	3164144210	Gravity_Magnitude			\Default Work Unit\Gravity_Magnitude	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	187427145	Hyper			\Default Work Unit\Master Audio Bus\MX\Hyper	
+	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
+	1291433366	Base			\Default Work Unit\Master Audio Bus\MX\Base	
+	1685527054	MX			\Default Work Unit\Master Audio Bus\MX	
+	2628937827	Regular			\Default Work Unit\Master Audio Bus\MX\Regular	
+	3152899174	Ostinato			\Default Work Unit\Master Audio Bus\MX\Ostinato	
+	3283419175	Micro			\Default Work Unit\Master Audio Bus\MX\Micro	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	348963605	Reverb			\Default Work Unit\Master Audio Bus\Reverb	
+	2655751784	Delay_01			\Default Work Unit\Master Audio Bus\Delay_01	
+	2655751786	Delay_03			\Default Work Unit\Master Audio Bus\Delay_03	
+	2655751787	Delay_02			\Default Work Unit\Master Audio Bus\Delay_02	
+
+Effect plug-ins	ID	Name	Type				Notes
+	63060675	Delay (Custom)	Wwise Delay			
+	135106149	Delay (Custom)	Wwise Delay			
+	306460119	Delay (Custom)	Wwise Delay			
+	2995775460	Room_Small	Wwise RoomVerb			
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A8C7DDCA-5AAF-4C59-A55A-5DEAA1BD99B3}" SchemaVersion="119">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{A8C7DDCA-5AAF-4C59-A55A-5DEAA1BD99B3}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="SoundCaster" ID="{E094070D-C54A-44F1-B43C-84E29E38121C}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="PlayMusic" ID="{653A1C07-1DE0-4502-9258-427E4134B7A7}" WorkUnitID="{839A2D48-FD5D-49AB-AD90-F51A8D01127E}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="MugHard" ID="{11E23AFC-9950-4949-983E-F724AF9EDF45}" WorkUnitID="{839A2D48-FD5D-49AB-AD90-F51A8D01127E}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="BallHard" ID="{944A7A4E-28D0-49CF-9FD8-2C6757614303}" WorkUnitID="{839A2D48-FD5D-49AB-AD90-F51A8D01127E}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Gravity_Magnitude" ID="{AC4961E3-E29B-4216-9BD6-474BA5233D04}"/>
+							<Value>9.81</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

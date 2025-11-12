@@ -1,0 +1,46 @@
+Event	ID	Name			Wwise Object Path	Notes
+	417627684	PlayMusic			\Default Work Unit\PlayMusic	
+	423926465	MugHard			\Default Work Unit\MugHard	
+	3393766697	BallHard			\Default Work Unit\BallHard	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	25726297	Micro_6_70bpm	Z:\Volumes\Samples\GitHub\Parabolic-Flight-Simulator\0GVR_Audio\.cache\Windows\SFX\Mixdown\6\Micro_6_70bpm_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Music Playlist\6\Micro_6_70bpm		2633244
+	55468786	Hyper_5_70bpm	Z:\Volumes\Samples\GitHub\Parabolic-Flight-Simulator\0GVR_Audio\.cache\Windows\SFX\Mixdown\5\Hyper_5_70bpm_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Music Playlist\5\Hyper_5_70bpm		2633240
+	88488309	Regular_4_70bpm	Z:\Volumes\Samples\GitHub\Parabolic-Flight-Simulator\0GVR_Audio\.cache\Windows\SFX\Mixdown\4\Regular_4_70bpm_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Music Playlist\4\Regular_4_70bpm		2633240
+	97639777	Regular_1_70bpm	Z:\Volumes\Samples\GitHub\Parabolic-Flight-Simulator\0GVR_Audio\.cache\Windows\SFX\Mixdown\1\Regular_1_70bpm_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Music Playlist\1\Regular_1_70bpm		2633240
+	103850062	Hyper_8_70bpm	Z:\Volumes\Samples\GitHub\Parabolic-Flight-Simulator\0GVR_Audio\.cache\Windows\SFX\Mixdown\8\Hyper_8_70bpm_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Music Playlist\8\Hyper_8_70bpm		2633240
+	109009087	Micro_4_70bpm	Z:\Volumes\Samples\GitHub\Parabolic-Flight-Simulator\0GVR_Audio\.cache\Windows\SFX\Mixdown\4\Micro_4_70bpm_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Music Playlist\4\Micro_4_70bpm		2633240
+	112359660	BallHard_3	Z:\Volumes\Samples\GitHub\Parabolic-Flight-Simulator\0GVR_Audio\.cache\Windows\SFX\BallHard_3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\BallHard\BallHard_3		89234
+	156662693	Hyper_7_70bpm	Z:\Volumes\Samples\GitHub\Parabolic-Flight-Simulator\0GVR_Audio\.cache\Windows\SFX\Mixdown\7\Hyper_7_70bpm_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Music Playlist\7\Hyper_7_70bpm		2633240
+	193428322	Regular_5_70bpm	Z:\Volumes\Samples\GitHub\Parabolic-Flight-Simulator\0GVR_Audio\.cache\Windows\SFX\Mixdown\5\Regular_5_70bpm_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Music Playlist\5\Regular_5_70bpm		2633240
+	255532721	Hyper_2_70bpm	Z:\Volumes\Samples\GitHub\Parabolic-Flight-Simulator\0GVR_Audio\.cache\Windows\SFX\Mixdown\2\Hyper_2_70bpm_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Music Playlist\2\Hyper_2_70bpm		2633240
+	308638575	Regular_8_70bpm	Z:\Volumes\Samples\GitHub\Parabolic-Flight-Simulator\0GVR_Audio\.cache\Windows\SFX\Mixdown\8\Regular_8_70bpm_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Music Playlist\8\Regular_8_70bpm		2633240
+	345602274	Micro_7_70bpm	Z:\Volumes\Samples\GitHub\Parabolic-Flight-Simulator\0GVR_Audio\.cache\Windows\SFX\Mixdown\7\Micro_7_70bpm_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Music Playlist\7\Micro_7_70bpm		2633240
+	350161438	Hyper_4_70bpm	Z:\Volumes\Samples\GitHub\Parabolic-Flight-Simulator\0GVR_Audio\.cache\Windows\SFX\Mixdown\4\Hyper_4_70bpm_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Music Playlist\4\Hyper_4_70bpm		2633240
+	364958831	Regular_2_70bpm	Z:\Volumes\Samples\GitHub\Parabolic-Flight-Simulator\0GVR_Audio\.cache\Windows\SFX\Mixdown\2\Regular_2_70bpm_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Music Playlist\2\Regular_2_70bpm		2633240
+	383809145	Hyper_6_70bpm	Z:\Volumes\Samples\GitHub\Parabolic-Flight-Simulator\0GVR_Audio\.cache\Windows\SFX\Mixdown\6\Hyper_6_70bpm_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Music Playlist\6\Hyper_6_70bpm		2633244
+	405343109	Micro_3_70bpm	Z:\Volumes\Samples\GitHub\Parabolic-Flight-Simulator\0GVR_Audio\.cache\Windows\SFX\Mixdown\3\Micro_3_70bpm_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Music Playlist\3\Micro_3_70bpm		2633244
+	426155719	Base_1_70bpm	Z:\Volumes\Samples\GitHub\Parabolic-Flight-Simulator\0GVR_Audio\.cache\Windows\SFX\Mixdown\1\Base_1_70bpm_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Music Playlist\1\Base_1_70bpm		2633240
+	501752341	Base_7_70bpm	Z:\Volumes\Samples\GitHub\Parabolic-Flight-Simulator\0GVR_Audio\.cache\Windows\SFX\Mixdown\7\Base_7_70bpm_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Music Playlist\7\Base_7_70bpm		2633240
+	521909691	Base_5_70bpm	Z:\Volumes\Samples\GitHub\Parabolic-Flight-Simulator\0GVR_Audio\.cache\Windows\SFX\Mixdown\5\Base_5_70bpm_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Music Playlist\5\Base_5_70bpm		2633240
+	618037935	Micro_2_70bpm	Z:\Volumes\Samples\GitHub\Parabolic-Flight-Simulator\0GVR_Audio\.cache\Windows\SFX\Mixdown\2\Micro_2_70bpm_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Music Playlist\2\Micro_2_70bpm		2633240
+	630890065	MugHard_03	Z:\Volumes\Samples\GitHub\Parabolic-Flight-Simulator\0GVR_Audio\.cache\Windows\SFX\MugHard_3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\MugHard\MugHard_03		62048
+	668478780	Regular_3_70bpm	Z:\Volumes\Samples\GitHub\Parabolic-Flight-Simulator\0GVR_Audio\.cache\Windows\SFX\Mixdown\3\Regular_3_70bpm_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Music Playlist\3\Regular_3_70bpm		2633244
+	675450709	Regular_6_70bpm	Z:\Volumes\Samples\GitHub\Parabolic-Flight-Simulator\0GVR_Audio\.cache\Windows\SFX\Mixdown\6\Regular_6_70bpm_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Music Playlist\6\Regular_6_70bpm		2633244
+	742677165	Regular_7_70bpm	Z:\Volumes\Samples\GitHub\Parabolic-Flight-Simulator\0GVR_Audio\.cache\Windows\SFX\Mixdown\7\Regular_7_70bpm_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Music Playlist\7\Regular_7_70bpm		2633240
+	759526001	Micro_5_70bpm	Z:\Volumes\Samples\GitHub\Parabolic-Flight-Simulator\0GVR_Audio\.cache\Windows\SFX\Mixdown\5\Micro_5_70bpm_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Music Playlist\5\Micro_5_70bpm		2633240
+	777490680	Hyper_1_70bpm	Z:\Volumes\Samples\GitHub\Parabolic-Flight-Simulator\0GVR_Audio\.cache\Windows\SFX\Mixdown\1\Hyper_1_70bpm_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Music Playlist\1\Hyper_1_70bpm		2633240
+	785776972	Base_4_70bpm	Z:\Volumes\Samples\GitHub\Parabolic-Flight-Simulator\0GVR_Audio\.cache\Windows\SFX\Mixdown\4\Base_4_70bpm_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Music Playlist\4\Base_4_70bpm		2633240
+	800871870	BallHard_2	Z:\Volumes\Samples\GitHub\Parabolic-Flight-Simulator\0GVR_Audio\.cache\Windows\SFX\BallHard_2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\BallHard\BallHard_2		59864
+	801860549	Micro_8_70bpm	Z:\Volumes\Samples\GitHub\Parabolic-Flight-Simulator\0GVR_Audio\.cache\Windows\SFX\Mixdown\8\Micro_8_70bpm_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Music Playlist\8\Micro_8_70bpm		2633240
+	817617158	MugHard_02	Z:\Volumes\Samples\GitHub\Parabolic-Flight-Simulator\0GVR_Audio\.cache\Windows\SFX\MugHard_2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\MugHard\MugHard_02		51034
+	819422515	Micro_1_70bpm	Z:\Volumes\Samples\GitHub\Parabolic-Flight-Simulator\0GVR_Audio\.cache\Windows\SFX\Mixdown\1\Micro_1_70bpm_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Music Playlist\1\Micro_1_70bpm		2633240
+	923459742	Base_2_70bpm	Z:\Volumes\Samples\GitHub\Parabolic-Flight-Simulator\0GVR_Audio\.cache\Windows\SFX\Mixdown\2\Base_2_70bpm_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Music Playlist\2\Base_2_70bpm		2633240
+	986471447	Ostinato	Z:\Volumes\Samples\GitHub\Parabolic-Flight-Simulator\0GVR_Audio\.cache\Windows\SFX\Ostinato_70bpm_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Music Playlist\3\Ostinato		2633240
+	987614008	Hyper_3_70bpm	Z:\Volumes\Samples\GitHub\Parabolic-Flight-Simulator\0GVR_Audio\.cache\Windows\SFX\Mixdown\3\Hyper_3_70bpm_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Music Playlist\3\Hyper_3_70bpm		2633244
+	1038149176	Base_8_70bpm	Z:\Volumes\Samples\GitHub\Parabolic-Flight-Simulator\0GVR_Audio\.cache\Windows\SFX\Mixdown\8\Base_8_70bpm_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Music Playlist\8\Base_8_70bpm		2633240
+	1042899766	MugHard_01	Z:\Volumes\Samples\GitHub\Parabolic-Flight-Simulator\0GVR_Audio\.cache\Windows\SFX\MugHard_1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\MugHard\MugHard_01		73276
+	1063691651	Base_3_70bpm	Z:\Volumes\Samples\GitHub\Parabolic-Flight-Simulator\0GVR_Audio\.cache\Windows\SFX\Mixdown\3\Base_3_70bpm_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Music Playlist\3\Base_3_70bpm		2633244
+	1067329135	BallHard_1	Z:\Volumes\Samples\GitHub\Parabolic-Flight-Simulator\0GVR_Audio\.cache\Windows\SFX\BallHard_1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\BallHard\BallHard_1		58608
+	1072400187	Base_6_70bpm	Z:\Volumes\Samples\GitHub\Parabolic-Flight-Simulator\0GVR_Audio\.cache\Windows\SFX\Mixdown\6\Base_6_70bpm_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Music Playlist\6\Base_6_70bpm		2633244
+

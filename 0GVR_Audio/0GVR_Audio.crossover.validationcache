@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationCache Version="1" SchemaVersion="119">
+	<ValidationCacheItem File="Z:\Volumes\Samples\Wwise Projects\0GVR_Audio\Virtual Acoustics\Default Work Unit.wwu" DateLow="1762904083" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Volumes\Samples\Wwise Projects\0GVR_Audio\Triggers\Default Work Unit.wwu" DateLow="1762904083" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Volumes\Samples\Wwise Projects\0GVR_Audio\Switches\Default Work Unit.wwu" DateLow="1762904083" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Volumes\Samples\Wwise Projects\0GVR_Audio\States\Default Work Unit.wwu" DateLow="1762904083" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Volumes\Samples\Wwise Projects\0GVR_Audio\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1762904083" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Volumes\Samples\Wwise Projects\0GVR_Audio\SoundBanks\Default Work Unit.wwu" DateLow="1762904083" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Volumes\Samples\Wwise Projects\0GVR_Audio\Queries\Factory Queries.wwu" DateLow="1739212047" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Volumes\Samples\Wwise Projects\0GVR_Audio\Queries\Default Work Unit.wwu" DateLow="1762904083" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Volumes\Samples\Wwise Projects\0GVR_Audio\Presets\Factory Spatial Audio.wwu" DateLow="1739212047" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Volumes\Samples\Wwise Projects\0GVR_Audio\Presets\Default Work Unit.wwu" DateLow="1762904083" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Volumes\Samples\Wwise Projects\0GVR_Audio\Modulators\Default Work Unit.wwu" DateLow="1762904083" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Volumes\Samples\Wwise Projects\0GVR_Audio\Mixing Sessions\Default Work Unit.wwu" DateLow="1762904083" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Volumes\Samples\Wwise Projects\0GVR_Audio\Metadata\Default Work Unit.wwu" DateLow="1762904083" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Volumes\Samples\Wwise Projects\0GVR_Audio\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1762912061" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Volumes\Samples\Wwise Projects\0GVR_Audio\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1762911799" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Volumes\Samples\Wwise Projects\0GVR_Audio\Game Parameters\Default Work Unit.wwu" DateLow="1762906443" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Volumes\Samples\Wwise Projects\0GVR_Audio\Events\Default Work Unit.wwu" DateLow="1762904083" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Volumes\Samples\Wwise Projects\0GVR_Audio\Effects\Factory Mastering Suite.wwu" DateLow="1739212118" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Volumes\Samples\Wwise Projects\0GVR_Audio\Effects\Factory Effects.wwu" DateLow="1739212047" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Volumes\Samples\Wwise Projects\0GVR_Audio\Effects\Default Work Unit.wwu" DateLow="1762911799" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Volumes\Samples\Wwise Projects\0GVR_Audio\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1762904083" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Volumes\Samples\Wwise Projects\0GVR_Audio\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1739212047" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Volumes\Samples\Wwise Projects\0GVR_Audio\Conversion Settings\Default Work Unit.wwu" DateLow="1762904083" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Volumes\Samples\Wwise Projects\0GVR_Audio\Control Surface Sessions\Default Work Unit.wwu" DateLow="1762904083" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Volumes\Samples\Wwise Projects\0GVR_Audio\Audio Devices\Default Work Unit.wwu" DateLow="1762904083" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Volumes\Samples\Wwise Projects\0GVR_Audio\Attenuations\Default Work Unit.wwu" DateLow="1762904083" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Volumes\Samples\Wwise Projects\0GVR_Audio\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1762904083" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Volumes\Samples\Wwise Projects\0GVR_Audio\0GVR_Audio.wproj" DateLow="1762904083" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Volumes\Samples\Wwise Projects\0GVR_Audio\0GVR_Audio.crossover.wsettings" DateLow="1762912069" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Volumes\Samples\GitHub\Parabolic-Flight-Simulator\0GVR_Audio\Virtual Acoustics\Default Work Unit.wwu" DateLow="1762950192" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Volumes\Samples\GitHub\Parabolic-Flight-Simulator\0GVR_Audio\Triggers\Default Work Unit.wwu" DateLow="1762950192" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Volumes\Samples\GitHub\Parabolic-Flight-Simulator\0GVR_Audio\Switches\Default Work Unit.wwu" DateLow="1762950192" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Volumes\Samples\GitHub\Parabolic-Flight-Simulator\0GVR_Audio\States\Default Work Unit.wwu" DateLow="1762950192" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Volumes\Samples\GitHub\Parabolic-Flight-Simulator\0GVR_Audio\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1762953643" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Volumes\Samples\GitHub\Parabolic-Flight-Simulator\0GVR_Audio\SoundBanks\Default Work Unit.wwu" DateLow="1762950192" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Volumes\Samples\GitHub\Parabolic-Flight-Simulator\0GVR_Audio\Queries\Factory Queries.wwu" DateLow="1762950192" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Volumes\Samples\GitHub\Parabolic-Flight-Simulator\0GVR_Audio\Queries\Default Work Unit.wwu" DateLow="1762950192" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Volumes\Samples\GitHub\Parabolic-Flight-Simulator\0GVR_Audio\Presets\Factory Spatial Audio.wwu" DateLow="1762950192" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Volumes\Samples\GitHub\Parabolic-Flight-Simulator\0GVR_Audio\Presets\Default Work Unit.wwu" DateLow="1762950192" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Volumes\Samples\GitHub\Parabolic-Flight-Simulator\0GVR_Audio\Modulators\Default Work Unit.wwu" DateLow="1762950192" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Volumes\Samples\GitHub\Parabolic-Flight-Simulator\0GVR_Audio\Mixing Sessions\Default Work Unit.wwu" DateLow="1762950192" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Volumes\Samples\GitHub\Parabolic-Flight-Simulator\0GVR_Audio\Metadata\Default Work Unit.wwu" DateLow="1762950192" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Volumes\Samples\GitHub\Parabolic-Flight-Simulator\0GVR_Audio\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1762953643" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Volumes\Samples\GitHub\Parabolic-Flight-Simulator\0GVR_Audio\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1762950192" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Volumes\Samples\GitHub\Parabolic-Flight-Simulator\0GVR_Audio\Game Parameters\Default Work Unit.wwu" DateLow="1762950192" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Volumes\Samples\GitHub\Parabolic-Flight-Simulator\0GVR_Audio\Events\Default Work Unit.wwu" DateLow="1762950192" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Volumes\Samples\GitHub\Parabolic-Flight-Simulator\0GVR_Audio\Effects\Factory Mastering Suite.wwu" DateLow="1762950192" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Volumes\Samples\GitHub\Parabolic-Flight-Simulator\0GVR_Audio\Effects\Factory Effects.wwu" DateLow="1762950192" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Volumes\Samples\GitHub\Parabolic-Flight-Simulator\0GVR_Audio\Effects\Default Work Unit.wwu" DateLow="1762950192" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Volumes\Samples\GitHub\Parabolic-Flight-Simulator\0GVR_Audio\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1762950192" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Volumes\Samples\GitHub\Parabolic-Flight-Simulator\0GVR_Audio\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1762950192" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Volumes\Samples\GitHub\Parabolic-Flight-Simulator\0GVR_Audio\Conversion Settings\Default Work Unit.wwu" DateLow="1762950192" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Volumes\Samples\GitHub\Parabolic-Flight-Simulator\0GVR_Audio\Control Surface Sessions\Default Work Unit.wwu" DateLow="1762950192" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Volumes\Samples\GitHub\Parabolic-Flight-Simulator\0GVR_Audio\Audio Devices\Default Work Unit.wwu" DateLow="1762950192" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Volumes\Samples\GitHub\Parabolic-Flight-Simulator\0GVR_Audio\Attenuations\Default Work Unit.wwu" DateLow="1762950192" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Volumes\Samples\GitHub\Parabolic-Flight-Simulator\0GVR_Audio\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1762950192" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Volumes\Samples\GitHub\Parabolic-Flight-Simulator\0GVR_Audio\0GVR_Audio.wproj" DateLow="1762951581" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Volumes\Samples\GitHub\Parabolic-Flight-Simulator\0GVR_Audio\0GVR_Audio.crossover.wsettings" DateLow="1762950328" DateHigh="0"/>
+</ValidationCache>

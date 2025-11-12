@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2834FD05-ECB1-4D16-B46E-376D717BBB35}" SchemaVersion="119">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{2834FD05-ECB1-4D16-B46E-376D717BBB35}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="Gravity_Magnitude" ID="{AC4961E3-E29B-4216-9BD6-474BA5233D04}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="9.81"/>
+						<Property Name="Max" Type="Real64" Value="17.658"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

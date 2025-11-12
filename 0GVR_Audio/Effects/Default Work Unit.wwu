@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B6F31DD8-AA84-449B-ACA8-FE2CAA8C2E36}" SchemaVersion="119">
+	<Effects>
+		<WorkUnit Name="Default Work Unit" ID="{B6F31DD8-AA84-449B-ACA8-FE2CAA8C2E36}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="New_iZotope_Trash_Delay" ID="{8F58FC23-4922-4BBF-98EC-6713CBE14010}" PluginName="iZotope Trash Delay" CompanyID="259" PluginID="4" PluginType="3"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Effects>
+</WwiseDocument>

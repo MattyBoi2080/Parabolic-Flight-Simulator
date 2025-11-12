@@ -1,0 +1,2634 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{773D8F2C-B3FC-48AF-B912-C0A44C0B10BB}" SchemaVersion="119">
+	<InteractiveMusic>
+		<WorkUnit Name="Default Work Unit" ID="{773D8F2C-B3FC-48AF-B912-C0A44C0B10BB}" PersistMode="Standalone">
+			<ChildrenList>
+				<MusicPlaylistContainer Name="Music Playlist" ID="{1EA6AAF7-7A9A-4634-BB8F-6A064E5E6912}" ShortID="1026765663">
+					<PropertyList>
+						<Property Name="Tempo" Type="Real64" Value="70"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06175E21-D91B-4501-9F6E-7BA522EFAD94}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{36DF6400-861A-406F-83B3-AAE47FFD154D}"/>
+						</Reference>
+						<Reference Name="PlaylistRoot">
+							<Custom>
+								<MusicPlaylistItem Name="" ID="{34BFDA16-2747-4B5A-BC7A-31E02BBDD752}" ShortID="523536292">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{74EF2189-803E-4D24-B574-FB89BBF888CD}" ShortID="647321903">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Segment">
+													<ObjectRef Name="1" ID="{A19EE44C-8854-4D38-8944-106C56F5846C}" WorkUnitID="{773D8F2C-B3FC-48AF-B912-C0A44C0B10BB}"/>
+												</Reference>
+											</ReferenceList>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{B9C002E9-AB3B-466C-B13C-99C49B5C1BBA}" ShortID="721583775">
+											<PropertyList>
+												<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+												<Property Name="PlayMode" Type="int16" Value="2"/>
+											</PropertyList>
+											<ChildrenList>
+												<MusicPlaylistItem Name="" ID="{4458CCAA-4F85-4E39-B303-C36AF2509FB9}" ShortID="746057808">
+													<PropertyList>
+														<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+														<Property Name="PlayMode" Type="int16" Value="2"/>
+													</PropertyList>
+													<ChildrenList>
+														<MusicPlaylistItem Name="" ID="{051F8599-AE18-4C1D-B752-D38A706BE854}" ShortID="318444684">
+															<PropertyList>
+																<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Segment">
+																	<ObjectRef Name="2" ID="{18F2ABAF-D307-4FF9-BE72-EE76C2828F6D}" WorkUnitID="{773D8F2C-B3FC-48AF-B912-C0A44C0B10BB}"/>
+																</Reference>
+															</ReferenceList>
+														</MusicPlaylistItem>
+														<MusicPlaylistItem Name="" ID="{F35AF0F6-4DCC-43C4-8120-A2CDFB1183E3}" ShortID="540289331">
+															<PropertyList>
+																<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Segment">
+																	<ObjectRef Name="3" ID="{7A5D861C-4B32-461F-9E96-C094CE2BF03C}" WorkUnitID="{773D8F2C-B3FC-48AF-B912-C0A44C0B10BB}"/>
+																</Reference>
+															</ReferenceList>
+														</MusicPlaylistItem>
+														<MusicPlaylistItem Name="" ID="{CF90812E-2936-4124-BED0-FC0BC01B4620}" ShortID="227459737">
+															<PropertyList>
+																<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Segment">
+																	<ObjectRef Name="4" ID="{37BA1625-A0B0-42D4-8E7F-1225E36D577B}" WorkUnitID="{773D8F2C-B3FC-48AF-B912-C0A44C0B10BB}"/>
+																</Reference>
+															</ReferenceList>
+														</MusicPlaylistItem>
+													</ChildrenList>
+												</MusicPlaylistItem>
+												<MusicPlaylistItem Name="" ID="{39E1D63A-2D9F-46EE-BF0D-285AE48CBB0A}" ShortID="26920317">
+													<PropertyList>
+														<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+														<Property Name="PlayMode" Type="int16" Value="2"/>
+													</PropertyList>
+													<ChildrenList>
+														<MusicPlaylistItem Name="" ID="{F4E700D9-6A46-443B-AA9F-E00DE4AA1D8C}" ShortID="938260794">
+															<PropertyList>
+																<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Segment">
+																	<ObjectRef Name="5" ID="{06998A6C-1FF7-47CF-9698-38FFDC2B0621}" WorkUnitID="{773D8F2C-B3FC-48AF-B912-C0A44C0B10BB}"/>
+																</Reference>
+															</ReferenceList>
+														</MusicPlaylistItem>
+														<MusicPlaylistItem Name="" ID="{00328E9D-8F4E-4419-9E35-78843DA67E8A}" ShortID="663775188">
+															<PropertyList>
+																<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Segment">
+																	<ObjectRef Name="6" ID="{7B20B9FC-E24F-4822-948F-B2D0C2698CE0}" WorkUnitID="{773D8F2C-B3FC-48AF-B912-C0A44C0B10BB}"/>
+																</Reference>
+															</ReferenceList>
+														</MusicPlaylistItem>
+														<MusicPlaylistItem Name="" ID="{32BE91A9-EE62-4071-80D9-6735672B0D68}" ShortID="513639171">
+															<PropertyList>
+																<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Segment">
+																	<ObjectRef Name="7" ID="{6A9C8811-8B8D-48E6-A233-68C7006B3064}" WorkUnitID="{773D8F2C-B3FC-48AF-B912-C0A44C0B10BB}"/>
+																</Reference>
+															</ReferenceList>
+														</MusicPlaylistItem>
+														<MusicPlaylistItem Name="" ID="{F1A7E282-D884-4863-A35F-244E1A76DDBA}" ShortID="642442150">
+															<PropertyList>
+																<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Segment">
+																	<ObjectRef Name="8" ID="{B920F893-507F-48CA-90AD-E20E94C486E6}" WorkUnitID="{773D8F2C-B3FC-48AF-B912-C0A44C0B10BB}"/>
+																</Reference>
+															</ReferenceList>
+														</MusicPlaylistItem>
+													</ChildrenList>
+												</MusicPlaylistItem>
+											</ChildrenList>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Custom>
+						</Reference>
+						<Reference Name="TransitionRoot">
+							<Custom>
+								<MusicTransition Name="Root" ID="{E42229A5-3777-4817-8E04-96369BB531CC}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{DC7C29A2-34F4-43FC-B5F8-1B8516ECC671}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</Custom>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="1" ID="{A19EE44C-8854-4D38-8944-106C56F5846C}" ShortID="1033066821">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="14142.8630952381"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06175E21-D91B-4501-9F6E-7BA522EFAD94}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{36DF6400-861A-406F-83B3-AAE47FFD154D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Base_1_70bpm" ID="{E2F6FBBB-E181-4615-98C4-5F7241FF309C}" ShortID="475095190">
+									<PropertyList>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Base" ID="{DAB767B5-8D97-408A-BBA4-724262F5192B}" WorkUnitID="{36DF6400-861A-406F-83B3-AAE47FFD154D}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{3DB62D3E-280C-4840-A358-0D8D72FE1447}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Base_1_70bpm" ID="{9EBCCDB1-B547-401B-94E0-590F795A0BE0}">
+											<Language>SFX</Language>
+											<AudioFile>Mixdown\1\Base_1_70bpm.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="426155719"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{06E382A0-DB35-4BCC-96F1-CD973CB441FD}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Base_1_70bpm" ID="{D82519D5-22B0-42B6-AF32-41F9BB090579}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="13714.2916666667"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Base_1_70bpm" ID="{9EBCCDB1-B547-401B-94E0-590F795A0BE0}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="Hyper_1_70bpm" ID="{7F032DB5-7033-4C3B-8354-F93CED2F33FD}" ShortID="802736821">
+									<PropertyList>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Hyper" ID="{C701484F-3397-499F-A11B-CC17ED0BC004}" WorkUnitID="{36DF6400-861A-406F-83B3-AAE47FFD154D}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{B9BFCA05-266C-42DF-B64F-7B63DC1AEF8E}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hyper_1_70bpm" ID="{8C8C6DD9-40E5-47F6-8B8E-A15C02C0E182}">
+											<Language>SFX</Language>
+											<AudioFile>Mixdown\1\Hyper_1_70bpm.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="777490680"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{26CCD917-44F7-499A-94AB-C5966F71F4ED}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Hyper_1_70bpm" ID="{AE30D66F-C95A-4A6C-B1CD-28CCB87F1C7D}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="13714.2916666667"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Hyper_1_70bpm" ID="{8C8C6DD9-40E5-47F6-8B8E-A15C02C0E182}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="Micro_1_70bpm" ID="{6D1C325B-2597-452D-9E62-B7F86D2AF4B7}" ShortID="309413150">
+									<PropertyList>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Micro" ID="{E4873A56-3E3B-46C2-9F57-2668A586450A}" WorkUnitID="{36DF6400-861A-406F-83B3-AAE47FFD154D}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{AC68FD73-1BBC-4C8B-853B-8791F2BD7BC9}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Micro_1_70bpm" ID="{78D11B8C-43F7-49C9-841E-635FC8F9A1EB}">
+											<Language>SFX</Language>
+											<AudioFile>Mixdown\1\Micro_1_70bpm.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="819422515"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{3EA72019-963E-4919-B8B9-BEC15FACC602}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Micro_1_70bpm" ID="{12268ECC-3FD4-4395-8504-435E0AF65105}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="13714.2916666667"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Micro_1_70bpm" ID="{78D11B8C-43F7-49C9-841E-635FC8F9A1EB}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="Regular_1_70bpm" ID="{EDCBA138-958A-4A9C-A952-BB4D92CE5AA8}" ShortID="989509072">
+									<PropertyList>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Regular" ID="{EDF9DC90-6B05-49D3-9679-4ABB5CEA4362}" WorkUnitID="{36DF6400-861A-406F-83B3-AAE47FFD154D}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{BFBDF6D0-535B-42B4-8CA9-A2ED5231C3F6}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Regular_1_70bpm" ID="{6FE050B1-556E-4E2D-974D-07057A14DCE1}">
+											<Language>SFX</Language>
+											<AudioFile>Mixdown\1\Regular_1_70bpm.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="97639777"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{382A8632-2BA8-4C05-9BCE-E21A0053FEB0}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Regular_1_70bpm" ID="{0FB35A4D-2D29-478A-A280-9622CA50702E}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="13714.2916666667"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Regular_1_70bpm" ID="{6FE050B1-556E-4E2D-974D-07057A14DCE1}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="Ostinato" ID="{800B501A-AE96-4169-990A-ED80F982A07A}" ShortID="366133212">
+									<PropertyList>
+										<Property Name="OverrideEffect" Type="bool" Value="True"/>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Ostinato" ID="{F6D4C3A5-BDF0-4653-A2EF-2D157C230591}" WorkUnitID="{36DF6400-861A-406F-83B3-AAE47FFD154D}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{10EC7141-D429-4B96-9B37-C6A3B5B19C91}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Ostinato_70bpm" ID="{7E67AA8D-5DEF-48BD-B3D8-C99800073303}">
+											<Language>SFX</Language>
+											<AudioFile>Ostinato_70bpm.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="986471447"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{9F00A663-A98E-4A62-B1BB-6B61ECBC6154}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Ostinato_70bpm" ID="{942C697B-9213-4483-A42C-576B6D3BA1ED}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="13714.2916666667"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Ostinato_70bpm" ID="{7E67AA8D-5DEF-48BD-B3D8-C99800073303}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{D40CA294-86F5-437B-B6E5-9C1DF8A58A81}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{F87BFBD5-4BED-4912-AF8C-490D27194A1D}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="6857.14285714286"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="2" ID="{18F2ABAF-D307-4FF9-BE72-EE76C2828F6D}" ShortID="672502578">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="13714.2916666667"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06175E21-D91B-4501-9F6E-7BA522EFAD94}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{36DF6400-861A-406F-83B3-AAE47FFD154D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Base_2_70bpm" ID="{CBCCA30D-FFA3-48DD-9FF2-5218AD8DE4D8}" ShortID="664740809">
+									<PropertyList>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Base" ID="{DAB767B5-8D97-408A-BBA4-724262F5192B}" WorkUnitID="{36DF6400-861A-406F-83B3-AAE47FFD154D}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{8BBC45C4-7E19-4ADB-9EE7-C71EDD987D60}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Base_2_70bpm" ID="{7081CD53-4134-48E7-9A9D-5799D77791AA}">
+											<Language>SFX</Language>
+											<AudioFile>Mixdown\2\Base_2_70bpm.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="923459742"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{F42BB88E-701E-474E-B3C5-0424FD9F7A56}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Base_2_70bpm" ID="{813ADBAC-9F64-47E2-9600-599A7AD488F7}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="13714.2916666667"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Base_2_70bpm" ID="{7081CD53-4134-48E7-9A9D-5799D77791AA}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="Hyper_2_70bpm" ID="{612ADFB5-48D2-4383-AA00-FC49EF9C601D}" ShortID="509844195">
+									<PropertyList>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Hyper" ID="{C701484F-3397-499F-A11B-CC17ED0BC004}" WorkUnitID="{36DF6400-861A-406F-83B3-AAE47FFD154D}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{77CA7976-A938-4C6F-93FE-029F24947F0F}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hyper_2_70bpm" ID="{5975616E-9BED-4B49-84EF-2F9B3889A20B}">
+											<Language>SFX</Language>
+											<AudioFile>Mixdown\2\Hyper_2_70bpm.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="255532721"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{5DADCD2B-CCC8-47A8-A5E5-3AA4CE5B2671}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Hyper_2_70bpm" ID="{E2874329-5E1F-47E5-AA67-D1E165B1A79C}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="13714.2916666667"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Hyper_2_70bpm" ID="{5975616E-9BED-4B49-84EF-2F9B3889A20B}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="Micro_2_70bpm" ID="{52B2C178-D96C-49B6-BA95-B9E22CD02626}" ShortID="404867948">
+									<PropertyList>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Micro" ID="{E4873A56-3E3B-46C2-9F57-2668A586450A}" WorkUnitID="{36DF6400-861A-406F-83B3-AAE47FFD154D}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{33E8A868-DA39-477A-BEAD-824D57C35509}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Micro_2_70bpm" ID="{79067C40-10D3-4707-87E4-9EBDA690498E}">
+											<Language>SFX</Language>
+											<AudioFile>Mixdown\2\Micro_2_70bpm.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="618037935"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{A3F338B5-6A79-4F32-BE32-9BDC49E986B8}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Micro_2_70bpm" ID="{8D61795A-1E6E-4D6A-987F-302ADD6D351D}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="13714.2916666667"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Micro_2_70bpm" ID="{79067C40-10D3-4707-87E4-9EBDA690498E}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="Regular_2_70bpm" ID="{47579BBF-B7E3-40DE-86B9-DF63764802C6}" ShortID="758246842">
+									<PropertyList>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Regular" ID="{EDF9DC90-6B05-49D3-9679-4ABB5CEA4362}" WorkUnitID="{36DF6400-861A-406F-83B3-AAE47FFD154D}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{D1AB937C-B22C-49BD-92B6-3C21B06FE999}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Regular_2_70bpm" ID="{9796168B-25A6-4637-95C4-FBFF0EFAA94A}">
+											<Language>SFX</Language>
+											<AudioFile>Mixdown\2\Regular_2_70bpm.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="364958831"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{5CC402A4-0F3E-4F55-AEBC-39A521B4CC36}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Regular_2_70bpm" ID="{E9493625-A784-4E4E-87ED-479C0D25C892}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="13714.2916666667"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Regular_2_70bpm" ID="{9796168B-25A6-4637-95C4-FBFF0EFAA94A}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="Ostinato" ID="{121006E7-EB4C-49EE-AEA2-2C6DEF4908E9}" ShortID="569102992">
+									<PropertyList>
+										<Property Name="OverrideEffect" Type="bool" Value="True"/>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Ostinato" ID="{F6D4C3A5-BDF0-4653-A2EF-2D157C230591}" WorkUnitID="{36DF6400-861A-406F-83B3-AAE47FFD154D}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{1BDD2E50-3F5F-4BDD-9765-8C78ADDCEF08}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Ostinato_70bpm" ID="{EAC526AE-CDD9-4C17-905F-07D288CF44AC}">
+											<Language>SFX</Language>
+											<AudioFile>Ostinato_70bpm.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="986471447"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{59C75611-CD4D-4094-A4F6-2649618EE958}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Ostinato_70bpm" ID="{1EE76B69-523A-422D-9B39-506E820CBFFD}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="13714.2916666667"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Ostinato_70bpm" ID="{EAC526AE-CDD9-4C17-905F-07D288CF44AC}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{902549A9-97F0-4FB8-A231-1077A415FA9C}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{6A9EF728-0C79-486B-8EE4-545F62EE11F2}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="6857.14285714286"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="3" ID="{7A5D861C-4B32-461F-9E96-C094CE2BF03C}" ShortID="863668780">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="13714.3125"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06175E21-D91B-4501-9F6E-7BA522EFAD94}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{36DF6400-861A-406F-83B3-AAE47FFD154D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Base_3_70bpm" ID="{7D93BCA2-96E7-4137-A361-A39651DB754A}" ShortID="903109320">
+									<PropertyList>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Base" ID="{DAB767B5-8D97-408A-BBA4-724262F5192B}" WorkUnitID="{36DF6400-861A-406F-83B3-AAE47FFD154D}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{CA96A729-6261-4B4E-89A9-EF11A29979C6}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Base_3_70bpm" ID="{D3C7C888-15F6-4F03-82C8-275EF19951CE}">
+											<Language>SFX</Language>
+											<AudioFile>Mixdown\3\Base_3_70bpm.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1063691651"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{514AF032-F527-4407-8752-D6F0806F97FA}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Base_3_70bpm" ID="{BB344699-69ED-4288-812A-14B60C569933}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="13714.3125"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Base_3_70bpm" ID="{D3C7C888-15F6-4F03-82C8-275EF19951CE}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="Hyper_3_70bpm" ID="{A66EC23E-8E00-4007-9DA2-19C72E84790B}" ShortID="185424125">
+									<PropertyList>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Hyper" ID="{C701484F-3397-499F-A11B-CC17ED0BC004}" WorkUnitID="{36DF6400-861A-406F-83B3-AAE47FFD154D}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{87AD5D5F-AC71-4955-B608-FA8DFB11E7F4}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hyper_3_70bpm" ID="{73668F41-EAD1-41DA-A25F-8A60A641B4F0}">
+											<Language>SFX</Language>
+											<AudioFile>Mixdown\3\Hyper_3_70bpm.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="987614008"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{97643C0A-4161-4D1A-8596-815CF7069784}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Hyper_3_70bpm" ID="{B89C31C2-C04A-4600-A5E0-7661DBFC050A}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="13714.3125"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Hyper_3_70bpm" ID="{73668F41-EAD1-41DA-A25F-8A60A641B4F0}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="Micro_3_70bpm" ID="{09809C41-0AA3-4284-B343-E9D03471E810}" ShortID="858587487">
+									<PropertyList>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Micro" ID="{E4873A56-3E3B-46C2-9F57-2668A586450A}" WorkUnitID="{36DF6400-861A-406F-83B3-AAE47FFD154D}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{1D122D76-B028-4C97-9F3F-5E01F53C11C0}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Micro_3_70bpm" ID="{C2A2A4B8-F15A-4BDB-9DD6-1DEE63BDB312}">
+											<Language>SFX</Language>
+											<AudioFile>Mixdown\3\Micro_3_70bpm.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="405343109"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{816AEAE4-3C41-44C2-BADC-454829D4AF2D}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Micro_3_70bpm" ID="{3B4B8D73-0C8A-4492-AB75-B233C9ECDD2F}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="13714.3125"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Micro_3_70bpm" ID="{C2A2A4B8-F15A-4BDB-9DD6-1DEE63BDB312}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="Regular_3_70bpm" ID="{FC2879C4-7084-44AB-8A91-33AA04B826BE}" ShortID="731065934">
+									<PropertyList>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Regular" ID="{EDF9DC90-6B05-49D3-9679-4ABB5CEA4362}" WorkUnitID="{36DF6400-861A-406F-83B3-AAE47FFD154D}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{5D02E44C-2C2D-4B66-A047-D66646333D81}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Regular_3_70bpm" ID="{6E5D336E-091C-4327-9DA0-FD0DAC5B195D}">
+											<Language>SFX</Language>
+											<AudioFile>Mixdown\3\Regular_3_70bpm.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="668478780"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{668F5A8E-3761-46AA-9DED-E07E2C6D2B1A}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Regular_3_70bpm" ID="{1D72D731-FF43-4588-9CF7-425759B3D491}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="13714.3125"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Regular_3_70bpm" ID="{6E5D336E-091C-4327-9DA0-FD0DAC5B195D}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="Ostinato" ID="{4F5A3982-16FF-414D-A7BE-A9ECFDA9316B}" ShortID="609460978">
+									<PropertyList>
+										<Property Name="OverrideEffect" Type="bool" Value="True"/>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Ostinato" ID="{F6D4C3A5-BDF0-4653-A2EF-2D157C230591}" WorkUnitID="{36DF6400-861A-406F-83B3-AAE47FFD154D}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{99344F19-503C-45DD-BA6E-849FF674184A}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Ostinato_70bpm" ID="{BA2C3367-9A65-4272-83AD-4E30ACF92AF9}">
+											<Language>SFX</Language>
+											<AudioFile>Ostinato_70bpm.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="986471447"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{ADAD0A9F-B997-41AF-BB17-BF6226977F97}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Ostinato_70bpm" ID="{F5455C9E-C83E-44DF-8E6D-EA12756DF773}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="13714.2916666667"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Ostinato_70bpm" ID="{BA2C3367-9A65-4272-83AD-4E30ACF92AF9}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{99D5DA00-5FB8-4A93-B841-3ED377C2A679}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{3133AECE-C4B1-4385-9F66-7C0827136CC0}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="6857.14285714286"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="4" ID="{37BA1625-A0B0-42D4-8E7F-1225E36D577B}" ShortID="400710718">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="13714.2916666667"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06175E21-D91B-4501-9F6E-7BA522EFAD94}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{36DF6400-861A-406F-83B3-AAE47FFD154D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Base_4_70bpm" ID="{5ED93686-7501-4E48-AEAF-4693CF220979}" ShortID="207972307">
+									<PropertyList>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Base" ID="{DAB767B5-8D97-408A-BBA4-724262F5192B}" WorkUnitID="{36DF6400-861A-406F-83B3-AAE47FFD154D}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{3E8BF451-791A-4744-AE95-FDDDD41B5A7C}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Base_4_70bpm" ID="{38A395F6-CE45-4652-A182-0DCCA6849161}">
+											<Language>SFX</Language>
+											<AudioFile>Mixdown\4\Base_4_70bpm.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="785776972"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{DA6CB93A-43C7-478D-B773-AF9BF6860D0A}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Base_4_70bpm" ID="{40055C2E-55BD-4B6F-90B1-E904E9EB5C27}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="13714.2916666667"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Base_4_70bpm" ID="{38A395F6-CE45-4652-A182-0DCCA6849161}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="Hyper_4_70bpm" ID="{CDE3D5AF-72A9-4B0D-B4B5-A80902D08718}" ShortID="229847743">
+									<PropertyList>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Hyper" ID="{C701484F-3397-499F-A11B-CC17ED0BC004}" WorkUnitID="{36DF6400-861A-406F-83B3-AAE47FFD154D}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{54B558D6-0646-4530-AB49-B5BB1C66E298}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hyper_4_70bpm" ID="{F5B7B5CB-880F-4CCC-AC33-50C960C7996F}">
+											<Language>SFX</Language>
+											<AudioFile>Mixdown\4\Hyper_4_70bpm.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="350161438"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{E4C76A52-8B54-455A-89A8-D031CA53939F}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Hyper_4_70bpm" ID="{95143E61-BA48-47FC-A195-A3DCE29D4AC4}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="13714.2916666667"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Hyper_4_70bpm" ID="{F5B7B5CB-880F-4CCC-AC33-50C960C7996F}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="Micro_4_70bpm" ID="{C3EB8BB3-8012-4AF1-A4C5-152346CE95EC}" ShortID="338426028">
+									<PropertyList>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Micro" ID="{E4873A56-3E3B-46C2-9F57-2668A586450A}" WorkUnitID="{36DF6400-861A-406F-83B3-AAE47FFD154D}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{B4B8CAD2-9D7C-4F75-B66D-84C38134BDEB}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Micro_4_70bpm" ID="{730D9222-B4A4-48CC-88D6-DC5E85271A0F}">
+											<Language>SFX</Language>
+											<AudioFile>Mixdown\4\Micro_4_70bpm.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="109009087"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{17CF56FD-AE92-4C86-BDEA-22D92EA3C3CD}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Micro_4_70bpm" ID="{88509EB7-3E35-4690-BA68-5BFB3C2671C4}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="13714.2916666667"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Micro_4_70bpm" ID="{730D9222-B4A4-48CC-88D6-DC5E85271A0F}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="Regular_4_70bpm" ID="{D7B7ED3C-CD5F-416F-BE48-4BEEA11E522B}" ShortID="1037402766">
+									<PropertyList>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Regular" ID="{EDF9DC90-6B05-49D3-9679-4ABB5CEA4362}" WorkUnitID="{36DF6400-861A-406F-83B3-AAE47FFD154D}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{06DD773C-ED0E-48A6-AD79-49517B3A758F}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Regular_4_70bpm" ID="{EA08DBB6-E637-4824-BD8D-5E517EC14955}">
+											<Language>SFX</Language>
+											<AudioFile>Mixdown\4\Regular_4_70bpm.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="88488309"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{55B370FD-46D4-4B7B-847D-303F609A614B}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Regular_4_70bpm" ID="{6C69A675-1705-4198-8885-E351DC28FF8E}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="13714.2916666667"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Regular_4_70bpm" ID="{EA08DBB6-E637-4824-BD8D-5E517EC14955}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="Ostinato" ID="{0F50A636-9938-42F1-944D-DDDF8C4AA002}" ShortID="395743286">
+									<PropertyList>
+										<Property Name="OverrideEffect" Type="bool" Value="True"/>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Ostinato" ID="{F6D4C3A5-BDF0-4653-A2EF-2D157C230591}" WorkUnitID="{36DF6400-861A-406F-83B3-AAE47FFD154D}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{0073953B-650B-4563-A561-4AAA252A95DD}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Ostinato_70bpm" ID="{455EB557-2D10-49EE-B5CB-5D845A6931C3}">
+											<Language>SFX</Language>
+											<AudioFile>Ostinato_70bpm.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="986471447"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{6FC6C416-963C-4FAB-8219-5C39D7D00110}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Ostinato_70bpm" ID="{8DECACD7-C601-44AC-BA01-F246898B52EF}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="13714.2916666667"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Ostinato_70bpm" ID="{455EB557-2D10-49EE-B5CB-5D845A6931C3}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{5D9B046E-BA63-4A34-8A9D-2E46F1732E60}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{7D3DC034-5333-47F0-829F-9BF796A4E637}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="6857.14285714286"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="5" ID="{06998A6C-1FF7-47CF-9698-38FFDC2B0621}" ShortID="130066595">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="13714.2916666667"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06175E21-D91B-4501-9F6E-7BA522EFAD94}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{36DF6400-861A-406F-83B3-AAE47FFD154D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Base_5_70bpm" ID="{32FE597E-0B0D-4780-8BFB-ED9A158878E8}" ShortID="633704419">
+									<PropertyList>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Base" ID="{DAB767B5-8D97-408A-BBA4-724262F5192B}" WorkUnitID="{36DF6400-861A-406F-83B3-AAE47FFD154D}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{989C1B5E-D97A-4DD6-9495-D7BD83317DAC}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Base_5_70bpm" ID="{82BB63A9-B3F1-4ACE-B972-DC0B3F83125C}">
+											<Language>SFX</Language>
+											<AudioFile>Mixdown\5\Base_5_70bpm.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="521909691"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{9BD19373-93E1-4BC8-9691-929A95A9F958}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Base_5_70bpm" ID="{BBF4D2CF-B2A3-4CBA-9380-508336825300}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="13714.2916666667"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Base_5_70bpm" ID="{82BB63A9-B3F1-4ACE-B972-DC0B3F83125C}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="Hyper_5_70bpm" ID="{1455BAC4-D08A-4C54-9688-2711FE460B3E}" ShortID="284441419">
+									<PropertyList>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Hyper" ID="{C701484F-3397-499F-A11B-CC17ED0BC004}" WorkUnitID="{36DF6400-861A-406F-83B3-AAE47FFD154D}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{A5798E2C-392B-4970-9FF9-50A040C74E80}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hyper_5_70bpm" ID="{565F7F1D-3F44-498D-B666-CBBB2B7A6D0F}">
+											<Language>SFX</Language>
+											<AudioFile>Mixdown\5\Hyper_5_70bpm.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="55468786"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{D8B83839-EE74-4277-87AE-30C4FBDDE966}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Hyper_5_70bpm" ID="{F2802228-C3BC-4E5A-9537-49660544A339}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="13714.2916666667"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Hyper_5_70bpm" ID="{565F7F1D-3F44-498D-B666-CBBB2B7A6D0F}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="Micro_5_70bpm" ID="{C70ADE2E-0C9D-4155-94AE-09FA255EF39A}" ShortID="693074327">
+									<PropertyList>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Micro" ID="{E4873A56-3E3B-46C2-9F57-2668A586450A}" WorkUnitID="{36DF6400-861A-406F-83B3-AAE47FFD154D}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{4B021CAE-2508-4DD6-96FD-27FCDAD83F59}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Micro_5_70bpm" ID="{C705DDD8-8582-41DA-BFF4-FA1EDC4C6483}">
+											<Language>SFX</Language>
+											<AudioFile>Mixdown\5\Micro_5_70bpm.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="759526001"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{413BCAE0-8CC4-4A85-A36A-5B7AF4164856}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Micro_5_70bpm" ID="{CC0926D9-0AB0-434D-9CA1-46D58CE89F2D}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="13714.2916666667"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Micro_5_70bpm" ID="{C705DDD8-8582-41DA-BFF4-FA1EDC4C6483}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="Regular_5_70bpm" ID="{3E6055B2-D73D-4F37-A04D-63228648E5DB}" ShortID="227564669">
+									<PropertyList>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Regular" ID="{EDF9DC90-6B05-49D3-9679-4ABB5CEA4362}" WorkUnitID="{36DF6400-861A-406F-83B3-AAE47FFD154D}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{1CD52A97-B353-42C4-BFF7-DAF37715388F}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Regular_5_70bpm" ID="{12D572CE-3871-41D8-8C50-307EBDBC3A6B}">
+											<Language>SFX</Language>
+											<AudioFile>Mixdown\5\Regular_5_70bpm.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="193428322"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{B6667D5F-D076-47AC-BDA3-24FB6EE8E5ED}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Regular_5_70bpm" ID="{EB125E90-6005-4241-BFAE-4E78C850A49D}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="13714.2916666667"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Regular_5_70bpm" ID="{12D572CE-3871-41D8-8C50-307EBDBC3A6B}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="Ostinato" ID="{7B2DC92F-C9A8-4B79-8865-96D598901BE8}" ShortID="838038667">
+									<PropertyList>
+										<Property Name="OverrideEffect" Type="bool" Value="True"/>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Ostinato" ID="{F6D4C3A5-BDF0-4653-A2EF-2D157C230591}" WorkUnitID="{36DF6400-861A-406F-83B3-AAE47FFD154D}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{BBD35C98-EC68-479A-B382-7C1A48A1D55E}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Ostinato_70bpm" ID="{92F53772-0A33-4E43-A8CA-54C3CCD94401}">
+											<Language>SFX</Language>
+											<AudioFile>Ostinato_70bpm.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="986471447"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{CC289EB7-4796-431B-B995-516491BCDBAF}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Ostinato_70bpm" ID="{E2F8D2B7-AA46-4D57-A018-82FBE445FC9F}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="13714.2916666667"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Ostinato_70bpm" ID="{92F53772-0A33-4E43-A8CA-54C3CCD94401}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{27E1756D-A569-4384-BFBE-CAE94638CEC7}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{A67698B4-9047-416A-859A-948E6482997B}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="6857.14285714286"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="6" ID="{7B20B9FC-E24F-4822-948F-B2D0C2698CE0}" ShortID="242651602">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="13714.3125"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06175E21-D91B-4501-9F6E-7BA522EFAD94}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{36DF6400-861A-406F-83B3-AAE47FFD154D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Base_6_70bpm" ID="{4828994B-1E72-4635-A6F7-2CECCAE5DC73}" ShortID="1034931848">
+									<PropertyList>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Base" ID="{DAB767B5-8D97-408A-BBA4-724262F5192B}" WorkUnitID="{36DF6400-861A-406F-83B3-AAE47FFD154D}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{F66D8A0D-8CA4-43F8-8796-88F370B83D4D}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Base_6_70bpm" ID="{CEF594BD-4CB3-413B-A166-8E42F472E2AB}">
+											<Language>SFX</Language>
+											<AudioFile>Mixdown\6\Base_6_70bpm.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1072400187"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{E0E1538C-F8EF-4DFB-BD21-896F99AF020C}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Base_6_70bpm" ID="{C5C92EFA-1E99-4CDE-B93F-39BA636543BA}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="13714.3125"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Base_6_70bpm" ID="{CEF594BD-4CB3-413B-A166-8E42F472E2AB}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="Hyper_6_70bpm" ID="{DA52AF2F-481D-455A-B496-CC14EF3CC40E}" ShortID="922870937">
+									<PropertyList>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Hyper" ID="{C701484F-3397-499F-A11B-CC17ED0BC004}" WorkUnitID="{36DF6400-861A-406F-83B3-AAE47FFD154D}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{D261E3B3-78E8-48DC-BEBB-15EABA993ECC}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hyper_6_70bpm" ID="{F0A4B8E6-550A-49E1-A51A-298568729CD2}">
+											<Language>SFX</Language>
+											<AudioFile>Mixdown\6\Hyper_6_70bpm.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="383809145"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{0CE6B91E-4E58-452C-8ECA-A3CE87377DA0}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Hyper_6_70bpm" ID="{A951BC53-779D-43E3-AC62-2CE8A40510C6}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="13714.3125"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Hyper_6_70bpm" ID="{F0A4B8E6-550A-49E1-A51A-298568729CD2}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="Micro_6_70bpm" ID="{B5EB846B-4B94-455D-AEEC-DD15DD48DFC5}" ShortID="288302461">
+									<PropertyList>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Micro" ID="{E4873A56-3E3B-46C2-9F57-2668A586450A}" WorkUnitID="{36DF6400-861A-406F-83B3-AAE47FFD154D}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{195544EA-8246-45D1-BA28-9DEC67DDCF54}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Micro_6_70bpm" ID="{5421399C-52A2-450E-81D2-0439F498EBC6}">
+											<Language>SFX</Language>
+											<AudioFile>Mixdown\6\Micro_6_70bpm.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="25726297"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{B725F8FF-C60C-4A1E-9E28-75225F3D7CAE}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Micro_6_70bpm" ID="{E93FDA5D-261C-472B-8B9F-D8F8BAB520A4}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="13714.3125"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Micro_6_70bpm" ID="{5421399C-52A2-450E-81D2-0439F498EBC6}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="Regular_6_70bpm" ID="{95ADFCEA-8EF1-442B-8BD5-6281C8933BA4}" ShortID="974144268">
+									<PropertyList>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Regular" ID="{EDF9DC90-6B05-49D3-9679-4ABB5CEA4362}" WorkUnitID="{36DF6400-861A-406F-83B3-AAE47FFD154D}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{AD957F74-CCC2-4A2F-B769-7A8E4F909E17}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Regular_6_70bpm" ID="{26C6A92B-7AF3-4BA0-BD42-C023D5C88C72}">
+											<Language>SFX</Language>
+											<AudioFile>Mixdown\6\Regular_6_70bpm.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="675450709"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{C11311E6-5ED2-476B-9080-FB9CB6298120}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Regular_6_70bpm" ID="{A623AD9A-567F-487D-906D-49B873F3FE1F}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="13714.3125"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Regular_6_70bpm" ID="{26C6A92B-7AF3-4BA0-BD42-C023D5C88C72}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="Ostinato" ID="{D45449FE-757D-4737-8EE4-8EF9EF9FE3C0}" ShortID="563078967">
+									<PropertyList>
+										<Property Name="OverrideEffect" Type="bool" Value="True"/>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Ostinato" ID="{F6D4C3A5-BDF0-4653-A2EF-2D157C230591}" WorkUnitID="{36DF6400-861A-406F-83B3-AAE47FFD154D}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{B50D198D-85E9-4240-A6DB-33886E291276}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Ostinato_70bpm" ID="{A386CBCF-A462-4829-AE5D-E58C196D4246}">
+											<Language>SFX</Language>
+											<AudioFile>Ostinato_70bpm.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="986471447"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{DAD3E14C-D7CC-49D2-8E27-17C44824B7AD}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Ostinato_70bpm" ID="{5381454F-CA4D-4865-9FAF-85958F6C1889}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="13714.2916666667"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Ostinato_70bpm" ID="{A386CBCF-A462-4829-AE5D-E58C196D4246}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{E7D2E65F-6500-4B84-973F-E23EA886DF67}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{F9AE3368-8143-4BEB-ACA0-1BD6CEBC9628}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="6857.14285714286"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="7" ID="{6A9C8811-8B8D-48E6-A233-68C7006B3064}" ShortID="885301983">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="13714.2916666667"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06175E21-D91B-4501-9F6E-7BA522EFAD94}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{36DF6400-861A-406F-83B3-AAE47FFD154D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Base_7_70bpm" ID="{5AFB0217-50AE-48AF-A23C-ED60CAE80D6F}" ShortID="292190673">
+									<PropertyList>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Base" ID="{DAB767B5-8D97-408A-BBA4-724262F5192B}" WorkUnitID="{36DF6400-861A-406F-83B3-AAE47FFD154D}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{655D9C66-3BE2-4725-AF05-320D3ED61234}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Base_7_70bpm" ID="{69CCF2B0-E01D-4E77-9329-A2335132B442}">
+											<Language>SFX</Language>
+											<AudioFile>Mixdown\7\Base_7_70bpm.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="501752341"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{CFFC357B-CA00-4FD4-9243-DC59A1B153D1}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Base_7_70bpm" ID="{D95670C3-4696-4C35-8FAD-B095757E1107}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="13714.2916666667"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Base_7_70bpm" ID="{69CCF2B0-E01D-4E77-9329-A2335132B442}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="Hyper_7_70bpm" ID="{03A13C49-A6E1-4843-A173-74BD22CBE579}" ShortID="333003529">
+									<PropertyList>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Hyper" ID="{C701484F-3397-499F-A11B-CC17ED0BC004}" WorkUnitID="{36DF6400-861A-406F-83B3-AAE47FFD154D}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{FB845986-8A08-4FE4-80FD-A1C812438579}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hyper_7_70bpm" ID="{CF550899-6A5C-43F4-A634-49311F59208D}">
+											<Language>SFX</Language>
+											<AudioFile>Mixdown\7\Hyper_7_70bpm.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="156662693"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{C154FFEE-A17A-442B-A9C5-CB6FB3DD0424}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Hyper_7_70bpm" ID="{CD34AE71-682E-4F96-A8AE-BF1BD4C7C792}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="13714.2916666667"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Hyper_7_70bpm" ID="{CF550899-6A5C-43F4-A634-49311F59208D}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="Micro_7_70bpm" ID="{F86D2DE5-A083-48BD-934E-D570F0245062}" ShortID="892289441">
+									<PropertyList>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Micro" ID="{E4873A56-3E3B-46C2-9F57-2668A586450A}" WorkUnitID="{36DF6400-861A-406F-83B3-AAE47FFD154D}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{40F4EF15-AA90-44DD-B214-11C214965250}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Micro_7_70bpm" ID="{25F3F724-9AA9-44C0-B9FD-CD1297E156CF}">
+											<Language>SFX</Language>
+											<AudioFile>Mixdown\7\Micro_7_70bpm.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="345602274"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{9C28FB1D-03A4-4F2C-A146-FB410539E16B}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Micro_7_70bpm" ID="{2031F831-0527-42D7-92AB-4AFD620A77C9}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="13714.2916666667"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Micro_7_70bpm" ID="{25F3F724-9AA9-44C0-B9FD-CD1297E156CF}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="Regular_7_70bpm" ID="{6676D144-9C53-4AD1-8C0E-190AD713FC61}" ShortID="176401533">
+									<PropertyList>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Regular" ID="{EDF9DC90-6B05-49D3-9679-4ABB5CEA4362}" WorkUnitID="{36DF6400-861A-406F-83B3-AAE47FFD154D}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{B18D961B-B39D-491E-B17D-49AAA8EDFD52}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Regular_7_70bpm" ID="{F2D2A593-C7F6-42AD-830A-AABF5DB663C6}">
+											<Language>SFX</Language>
+											<AudioFile>Mixdown\7\Regular_7_70bpm.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="742677165"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{A9E32A18-C61C-480B-96D0-D1D3C9A5542E}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Regular_7_70bpm" ID="{3E2F9929-8759-45CF-9A1B-6895CFB86F97}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="13714.2916666667"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Regular_7_70bpm" ID="{F2D2A593-C7F6-42AD-830A-AABF5DB663C6}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="Ostinato" ID="{14F78AF4-76B8-4F32-8820-8C0F287E5DA4}" ShortID="271427575">
+									<PropertyList>
+										<Property Name="OverrideEffect" Type="bool" Value="True"/>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Ostinato" ID="{F6D4C3A5-BDF0-4653-A2EF-2D157C230591}" WorkUnitID="{36DF6400-861A-406F-83B3-AAE47FFD154D}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{F4D9E013-9F0E-41F2-A233-0DA60990051A}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Ostinato_70bpm" ID="{E5F75E55-E6CB-462B-9DFD-CA362325270F}">
+											<Language>SFX</Language>
+											<AudioFile>Ostinato_70bpm.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="986471447"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{C89DF0A6-42A8-49F9-9D44-0514BF12BBA2}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Ostinato_70bpm" ID="{D655FDE9-C909-43AF-9565-3090347BF710}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="13714.2916666667"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Ostinato_70bpm" ID="{E5F75E55-E6CB-462B-9DFD-CA362325270F}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{73E35962-90C7-4BFE-B545-C162D1438901}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{C8BFEC5E-107D-4C78-999B-CE6C3485D332}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="6857.14285714286"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="8" ID="{B920F893-507F-48CA-90AD-E20E94C486E6}" ShortID="940506750">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="13714.2916666667"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06175E21-D91B-4501-9F6E-7BA522EFAD94}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{36DF6400-861A-406F-83B3-AAE47FFD154D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Base_8_70bpm" ID="{F879BD68-AA31-46B0-8F02-5B4BCDA3189C}" ShortID="534383538">
+									<PropertyList>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Base" ID="{DAB767B5-8D97-408A-BBA4-724262F5192B}" WorkUnitID="{36DF6400-861A-406F-83B3-AAE47FFD154D}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{8C5F7F28-3466-4B2A-A43E-3C0DCC14E7D0}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Base_8_70bpm" ID="{07D9A354-7D05-4348-BA99-E0E79B34EE83}">
+											<Language>SFX</Language>
+											<AudioFile>Mixdown\8\Base_8_70bpm.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1038149176"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{5933D42E-6790-4C66-8642-CF1C144D2F5C}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Base_8_70bpm" ID="{73C307F6-FADA-4000-9CBB-9879DC98A041}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="13714.2916666667"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Base_8_70bpm" ID="{07D9A354-7D05-4348-BA99-E0E79B34EE83}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="Hyper_8_70bpm" ID="{D1238097-E1DD-4770-BE4D-FF4EC32BB9D1}" ShortID="444504406">
+									<PropertyList>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Hyper" ID="{C701484F-3397-499F-A11B-CC17ED0BC004}" WorkUnitID="{36DF6400-861A-406F-83B3-AAE47FFD154D}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{5583C88C-07FF-4BC1-BF4E-7C4C4255E764}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hyper_8_70bpm" ID="{6764E1A8-7177-427C-8355-CD4957A523EB}">
+											<Language>SFX</Language>
+											<AudioFile>Mixdown\8\Hyper_8_70bpm.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="103850062"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{2183C57F-9CB1-4CF7-96F5-687CDE41C196}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Hyper_8_70bpm" ID="{BE95CB9C-B357-427A-8AAB-9691B0E456E1}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="13714.2916666667"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Hyper_8_70bpm" ID="{6764E1A8-7177-427C-8355-CD4957A523EB}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="Micro_8_70bpm" ID="{E632DC25-D44E-43A1-8652-0855C68F9838}" ShortID="859277043">
+									<PropertyList>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Micro" ID="{E4873A56-3E3B-46C2-9F57-2668A586450A}" WorkUnitID="{36DF6400-861A-406F-83B3-AAE47FFD154D}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{7DD08DF1-13B8-4699-96CF-4700E8AB5C9E}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Micro_8_70bpm" ID="{DD6879CC-DA7A-458C-9D5D-16454D91E5E3}">
+											<Language>SFX</Language>
+											<AudioFile>Mixdown\8\Micro_8_70bpm.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="801860549"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{42123CAD-0F53-4641-9448-DC0F1CEF23E5}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Micro_8_70bpm" ID="{D1851446-925B-4209-B305-A17E8C2736D3}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="13714.2916666667"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Micro_8_70bpm" ID="{DD6879CC-DA7A-458C-9D5D-16454D91E5E3}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="Regular_8_70bpm" ID="{C4912B0E-251E-427E-BE37-EB95A84BF5F3}" ShortID="404010204">
+									<PropertyList>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Regular" ID="{EDF9DC90-6B05-49D3-9679-4ABB5CEA4362}" WorkUnitID="{36DF6400-861A-406F-83B3-AAE47FFD154D}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{8F4D2140-4871-4C6A-8E09-A4AD199137F4}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Regular_8_70bpm" ID="{9A87D4BA-8F0F-415D-B8E4-77D2DB4FC567}">
+											<Language>SFX</Language>
+											<AudioFile>Mixdown\8\Regular_8_70bpm.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="308638575"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{47E0BEF7-39FD-4262-A620-DAD54287D36D}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Regular_8_70bpm" ID="{E9F28C52-173A-47A5-BC02-FFF9503F04E2}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="13714.2916666667"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Regular_8_70bpm" ID="{9A87D4BA-8F0F-415D-B8E4-77D2DB4FC567}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="Ostinato" ID="{BA3C2435-1291-4A6A-87B7-979F34162E18}" ShortID="748178836">
+									<PropertyList>
+										<Property Name="OverrideEffect" Type="bool" Value="True"/>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Ostinato" ID="{F6D4C3A5-BDF0-4653-A2EF-2D157C230591}" WorkUnitID="{36DF6400-861A-406F-83B3-AAE47FFD154D}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{25D87CD4-73AF-4CBB-A4EA-B8059BD9E5E8}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Ostinato_70bpm" ID="{CED8F435-285A-4CE2-A383-62A08F392045}">
+											<Language>SFX</Language>
+											<AudioFile>Ostinato_70bpm.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="986471447"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{BC767BF5-D020-4C63-B5BF-69ACEEABE47A}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Ostinato_70bpm" ID="{27FC9709-9CFD-49FE-8FE2-2E2A4E6F709D}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="13714.2916666667"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Ostinato_70bpm" ID="{CED8F435-285A-4CE2-A383-62A08F392045}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{C7A511C4-51C5-4FBC-B723-12650ECF42ED}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{6156F4F4-F889-4027-BE55-178C9AB74F2E}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="6857.14285714286"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+					</ChildrenList>
+				</MusicPlaylistContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</InteractiveMusic>
+</WwiseDocument>

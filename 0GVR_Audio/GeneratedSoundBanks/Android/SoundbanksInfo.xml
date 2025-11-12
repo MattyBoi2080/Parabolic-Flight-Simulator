@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Android" BasePlatform="Android" SchemaVersion="16" SoundBankVersion="150">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Android</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{473CCC24-9419-F27E-6BC8-A12F55E8AEBE}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<Custom>
+					<Plugin Id="63060675" Name="Delay (Custom)" LibName="Wwise Delay" LibId="6946819"/>
+					<Plugin Id="135106149" Name="Delay (Custom)" LibName="Wwise Delay" LibId="6946819"/>
+					<Plugin Id="306460119" Name="Delay (Custom)" LibName="Wwise Delay" LibId="6946819"/>
+				</Custom>
+				<ShareSets>
+					<Plugin Id="2995775460" Name="Room_Small" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</ShareSets>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="187427145" Name="Hyper"/>
+				<Bus Id="393239870" Name="SFX">
+					<AuxBusRefs>
+						<AuxBusRef Id="348963605" Name="Reverb"/>
+					</AuxBusRefs>
+				</Bus>
+				<Bus Id="1291433366" Name="Base"/>
+				<Bus Id="1685527054" Name="MX"/>
+				<Bus Id="2628937827" Name="Regular"/>
+				<Bus Id="3152899174" Name="Ostinato">
+					<AuxBusRefs>
+						<AuxBusRef Id="2655751784" Name="Delay_01"/>
+						<AuxBusRef Id="2655751786" Name="Delay_03"/>
+						<AuxBusRef Id="2655751787" Name="Delay_02"/>
+					</AuxBusRefs>
+				</Bus>
+				<Bus Id="3283419175" Name="Micro"/>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+			<AuxBusses>
+				<AuxBus Id="348963605" Name="Reverb">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="2995775460"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="2655751784" Name="Delay_01">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="63060675"/>
+						</Custom>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="2655751786" Name="Delay_03">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="306460119"/>
+						</Custom>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="2655751787" Name="Delay_02">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="135106149"/>
+						</Custom>
+					</PluginRefs>
+				</AuxBus>
+			</AuxBusses>
+			<GameParameters>
+				<GameParameter Id="3164144210" Name="Gravity_Magnitude"/>
+			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{0B9455FA-1E77-2986-5D8B-13F8ACD65D60}">
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<Media>
+				<File Id="25726297" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mixdown\6\Micro_6_70bpm.wav</ShortName>
+					<CachePath>SFX/Mixdown/6/Micro_6_70bpm_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="55468786" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mixdown\5\Hyper_5_70bpm.wav</ShortName>
+					<CachePath>SFX/Mixdown/5/Hyper_5_70bpm_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="88488309" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mixdown\4\Regular_4_70bpm.wav</ShortName>
+					<CachePath>SFX/Mixdown/4/Regular_4_70bpm_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="97639777" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mixdown\1\Regular_1_70bpm.wav</ShortName>
+					<CachePath>SFX/Mixdown/1/Regular_1_70bpm_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="103850062" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mixdown\8\Hyper_8_70bpm.wav</ShortName>
+					<CachePath>SFX/Mixdown/8/Hyper_8_70bpm_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="109009087" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mixdown\4\Micro_4_70bpm.wav</ShortName>
+					<CachePath>SFX/Mixdown/4/Micro_4_70bpm_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="112359660" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BallHard_3.wav</ShortName>
+					<CachePath>SFX/BallHard_3_818F3B66.wem</CachePath>
+				</File>
+				<File Id="156662693" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mixdown\7\Hyper_7_70bpm.wav</ShortName>
+					<CachePath>SFX/Mixdown/7/Hyper_7_70bpm_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="193428322" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mixdown\5\Regular_5_70bpm.wav</ShortName>
+					<CachePath>SFX/Mixdown/5/Regular_5_70bpm_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="255532721" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mixdown\2\Hyper_2_70bpm.wav</ShortName>
+					<CachePath>SFX/Mixdown/2/Hyper_2_70bpm_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="308638575" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mixdown\8\Regular_8_70bpm.wav</ShortName>
+					<CachePath>SFX/Mixdown/8/Regular_8_70bpm_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="345602274" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mixdown\7\Micro_7_70bpm.wav</ShortName>
+					<CachePath>SFX/Mixdown/7/Micro_7_70bpm_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="350161438" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mixdown\4\Hyper_4_70bpm.wav</ShortName>
+					<CachePath>SFX/Mixdown/4/Hyper_4_70bpm_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="364958831" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mixdown\2\Regular_2_70bpm.wav</ShortName>
+					<CachePath>SFX/Mixdown/2/Regular_2_70bpm_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="383809145" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mixdown\6\Hyper_6_70bpm.wav</ShortName>
+					<CachePath>SFX/Mixdown/6/Hyper_6_70bpm_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="405343109" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mixdown\3\Micro_3_70bpm.wav</ShortName>
+					<CachePath>SFX/Mixdown/3/Micro_3_70bpm_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="426155719" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mixdown\1\Base_1_70bpm.wav</ShortName>
+					<CachePath>SFX/Mixdown/1/Base_1_70bpm_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="501752341" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mixdown\7\Base_7_70bpm.wav</ShortName>
+					<CachePath>SFX/Mixdown/7/Base_7_70bpm_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="521909691" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mixdown\5\Base_5_70bpm.wav</ShortName>
+					<CachePath>SFX/Mixdown/5/Base_5_70bpm_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="618037935" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mixdown\2\Micro_2_70bpm.wav</ShortName>
+					<CachePath>SFX/Mixdown/2/Micro_2_70bpm_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="630890065" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MugHard_3.wav</ShortName>
+					<CachePath>SFX/MugHard_3_818F3B66.wem</CachePath>
+				</File>
+				<File Id="668478780" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mixdown\3\Regular_3_70bpm.wav</ShortName>
+					<CachePath>SFX/Mixdown/3/Regular_3_70bpm_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="675450709" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mixdown\6\Regular_6_70bpm.wav</ShortName>
+					<CachePath>SFX/Mixdown/6/Regular_6_70bpm_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="742677165" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mixdown\7\Regular_7_70bpm.wav</ShortName>
+					<CachePath>SFX/Mixdown/7/Regular_7_70bpm_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="759526001" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mixdown\5\Micro_5_70bpm.wav</ShortName>
+					<CachePath>SFX/Mixdown/5/Micro_5_70bpm_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="777490680" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mixdown\1\Hyper_1_70bpm.wav</ShortName>
+					<CachePath>SFX/Mixdown/1/Hyper_1_70bpm_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="785776972" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mixdown\4\Base_4_70bpm.wav</ShortName>
+					<CachePath>SFX/Mixdown/4/Base_4_70bpm_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="800871870" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BallHard_2.wav</ShortName>
+					<CachePath>SFX/BallHard_2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="801860549" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mixdown\8\Micro_8_70bpm.wav</ShortName>
+					<CachePath>SFX/Mixdown/8/Micro_8_70bpm_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="817617158" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MugHard_2.wav</ShortName>
+					<CachePath>SFX/MugHard_2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="819422515" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mixdown\1\Micro_1_70bpm.wav</ShortName>
+					<CachePath>SFX/Mixdown/1/Micro_1_70bpm_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="923459742" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mixdown\2\Base_2_70bpm.wav</ShortName>
+					<CachePath>SFX/Mixdown/2/Base_2_70bpm_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="986471447" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ostinato_70bpm.wav</ShortName>
+					<CachePath>SFX/Ostinato_70bpm_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="987614008" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mixdown\3\Hyper_3_70bpm.wav</ShortName>
+					<CachePath>SFX/Mixdown/3/Hyper_3_70bpm_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="1038149176" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mixdown\8\Base_8_70bpm.wav</ShortName>
+					<CachePath>SFX/Mixdown/8/Base_8_70bpm_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="1042899766" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MugHard_1.wav</ShortName>
+					<CachePath>SFX/MugHard_1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1063691651" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mixdown\3\Base_3_70bpm.wav</ShortName>
+					<CachePath>SFX/Mixdown/3/Base_3_70bpm_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="1067329135" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BallHard_1.wav</ShortName>
+					<CachePath>SFX/BallHard_1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1072400187" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mixdown\6\Base_6_70bpm.wav</ShortName>
+					<CachePath>SFX/Mixdown/6/Base_6_70bpm_FBC78EF0.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3393766697" Name="BallHard" DurationType="OneShot" DurationMin="0.6095" DurationMax="0.92852086">
+					<MediaRefs>
+						<MediaRef Id="112359660"/>
+						<MediaRef Id="800871870"/>
+						<MediaRef Id="1067329135"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="423926465" Name="MugHard" DurationType="OneShot" DurationMin="0.5306042" DurationMax="0.76229167">
+					<MediaRefs>
+						<MediaRef Id="630890065"/>
+						<MediaRef Id="817617158"/>
+						<MediaRef Id="1042899766"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="417627684" Name="PlayMusic" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="25726297"/>
+						<MediaRef Id="55468786"/>
+						<MediaRef Id="88488309"/>
+						<MediaRef Id="97639777"/>
+						<MediaRef Id="103850062"/>
+						<MediaRef Id="109009087"/>
+						<MediaRef Id="156662693"/>
+						<MediaRef Id="193428322"/>
+						<MediaRef Id="255532721"/>
+						<MediaRef Id="308638575"/>
+						<MediaRef Id="345602274"/>
+						<MediaRef Id="350161438"/>
+						<MediaRef Id="364958831"/>
+						<MediaRef Id="383809145"/>
+						<MediaRef Id="405343109"/>
+						<MediaRef Id="426155719"/>
+						<MediaRef Id="501752341"/>
+						<MediaRef Id="521909691"/>
+						<MediaRef Id="618037935"/>
+						<MediaRef Id="668478780"/>
+						<MediaRef Id="675450709"/>
+						<MediaRef Id="742677165"/>
+						<MediaRef Id="759526001"/>
+						<MediaRef Id="777490680"/>
+						<MediaRef Id="785776972"/>
+						<MediaRef Id="801860549"/>
+						<MediaRef Id="819422515"/>
+						<MediaRef Id="923459742"/>
+						<MediaRef Id="986471447"/>
+						<MediaRef Id="987614008"/>
+						<MediaRef Id="1038149176"/>
+						<MediaRef Id="1063691651"/>
+						<MediaRef Id="1072400187"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{179A0F89-206C-5C66-E727-83DB8F44E5CD}</FileHash>
+</SoundBanksInfo>

@@ -42,6 +42,7 @@ public class GlobalGravityChanger3D : MonoBehaviour
 
     Indicator.text = newGravity.magnitude.ToString("F2");
     Physics.gravity = newGravity;
+    AkSoundEngine.SetRTPCValue("Gravity_Magnitude", newGravity.magnitude);
   }
 
   IEnumerator GravityLoop()

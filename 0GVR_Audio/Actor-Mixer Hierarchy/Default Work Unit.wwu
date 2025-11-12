@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{EEF72591-B12D-42DD-90AD-5DD163D61570}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{EEF72591-B12D-42DD-90AD-5DD163D61570}" PersistMode="Standalone">
+			<ChildrenList>
+				<RandomSequenceContainer Name="BallHard" ID="{A6784F1C-8F0C-49F0-879F-B6D3063B6713}" ShortID="490737126">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>4</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06175E21-D91B-4501-9F6E-7BA522EFAD94}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{489DC6DB-1CA3-4EAF-901F-262BA9A6148E}" WorkUnitID="{36DF6400-861A-406F-83B3-AAE47FFD154D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="BallHard_1" ID="{403EEEBE-2227-43C3-B560-AF2D84EA9F6A}" ShortID="605770966">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06175E21-D91B-4501-9F6E-7BA522EFAD94}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{36DF6400-861A-406F-83B3-AAE47FFD154D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BallHard_1" ID="{4A1D7F3E-7E2A-4F22-9C87-42AC3E9A9D9F}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="0.018671772428884"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>BallHard_1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1067329135"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="BallHard_1" ID="{4A1D7F3E-7E2A-4F22-9C87-42AC3E9A9D9F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BallHard_2" ID="{68D720B3-0604-4AA0-B5CA-7329C48F79C4}" ShortID="517095237">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06175E21-D91B-4501-9F6E-7BA522EFAD94}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{36DF6400-861A-406F-83B3-AAE47FFD154D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BallHard_2" ID="{D317D590-8F31-4099-801D-0B690D35B8F1}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="0.00157570783114225"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>BallHard_2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="800871870"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="BallHard_2" ID="{D317D590-8F31-4099-801D-0B690D35B8F1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BallHard_3" ID="{D0133A83-B89F-4386-A06D-A4AF39600110}" ShortID="811050236">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06175E21-D91B-4501-9F6E-7BA522EFAD94}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{36DF6400-861A-406F-83B3-AAE47FFD154D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BallHard_3" ID="{E49D0A2C-4B42-437C-B8E5-DDF9205B464F}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="0.00442173274664074"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>BallHard_3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="112359660"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="BallHard_3" ID="{E49D0A2C-4B42-437C-B8E5-DDF9205B464F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="MugHard" ID="{70B746A6-D5B5-4CEA-8951-60840BD990A7}" ShortID="929118189">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06175E21-D91B-4501-9F6E-7BA522EFAD94}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{489DC6DB-1CA3-4EAF-901F-262BA9A6148E}" WorkUnitID="{36DF6400-861A-406F-83B3-AAE47FFD154D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="MugHard_01" ID="{A8B63CE1-B63A-4C7D-9C84-E8992639347E}" ShortID="318117910">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06175E21-D91B-4501-9F6E-7BA522EFAD94}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{36DF6400-861A-406F-83B3-AAE47FFD154D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="MugHard_1" ID="{ADB738F8-A33B-4399-8DB6-873B796063A7}">
+									<Language>SFX</Language>
+									<AudioFile>MugHard_1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1042899766"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="MugHard_1" ID="{ADB738F8-A33B-4399-8DB6-873B796063A7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="MugHard_02" ID="{A5FCE833-F2F4-457C-94D6-7D536F174F82}" ShortID="523727134">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06175E21-D91B-4501-9F6E-7BA522EFAD94}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{36DF6400-861A-406F-83B3-AAE47FFD154D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="MugHard_2" ID="{2E9B669D-BF90-4876-A418-131FB921800B}">
+									<Language>SFX</Language>
+									<AudioFile>MugHard_2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="817617158"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="MugHard_2" ID="{2E9B669D-BF90-4876-A418-131FB921800B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="MugHard_03" ID="{A393C986-ADEC-4CED-B936-2F290C4AAD27}" ShortID="596397929">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06175E21-D91B-4501-9F6E-7BA522EFAD94}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{36DF6400-861A-406F-83B3-AAE47FFD154D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="MugHard_3" ID="{E3119142-6D18-4ABC-91DE-729988B6E82B}">
+									<Language>SFX</Language>
+									<AudioFile>MugHard_3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="630890065"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="MugHard_3" ID="{E3119142-6D18-4ABC-91DE-729988B6E82B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
