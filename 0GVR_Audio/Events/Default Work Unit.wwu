@@ -36,6 +36,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Hammer" ID="{6D01AA4E-66F4-4FA3-BDC5-E7B125B49D23}">
+					<ChildrenList>
+						<Action Name="" ID="{F2032437-6562-464B-AC83-AEBEB3D4BB74}" ShortID="864753996">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hammer" ID="{795CCA05-80A0-42ED-AB5E-8F46E1E9D7AF}" WorkUnitID="{EEF72591-B12D-42DD-90AD-5DD163D61570}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Wrench" ID="{81EFBD8A-F7C8-4C14-8596-02D655A7E543}">
+					<ChildrenList>
+						<Action Name="" ID="{61DF1B79-14A4-4BB7-B998-C7CAC3D8981A}" ShortID="850754946">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Wrench" ID="{902C4CF7-6FF2-41BF-8913-069AE8C7D8B6}" WorkUnitID="{EEF72591-B12D-42DD-90AD-5DD163D61570}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

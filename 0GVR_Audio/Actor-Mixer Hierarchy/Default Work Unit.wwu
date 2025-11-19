@@ -178,6 +178,162 @@
 						</Sound>
 					</ChildrenList>
 				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Hammer" ID="{795CCA05-80A0-42ED-AB5E-8F46E1E9D7AF}" ShortID="642494014">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06175E21-D91B-4501-9F6E-7BA522EFAD94}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{489DC6DB-1CA3-4EAF-901F-262BA9A6148E}" WorkUnitID="{36DF6400-861A-406F-83B3-AAE47FFD154D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="hammer1" ID="{271BD398-ED99-4B67-943A-E2643B87AE2A}" ShortID="1004586001">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06175E21-D91B-4501-9F6E-7BA522EFAD94}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{36DF6400-861A-406F-83B3-AAE47FFD154D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="hammer1" ID="{C7AFDB5E-D909-408F-A799-9DD690F50DCE}">
+									<Language>SFX</Language>
+									<AudioFile>hammer1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="637294481"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="hammer1" ID="{C7AFDB5E-D909-408F-A799-9DD690F50DCE}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="hammer2" ID="{62AE6CBB-0538-485C-98F3-1FC5DCEC6B7B}" ShortID="972459147">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06175E21-D91B-4501-9F6E-7BA522EFAD94}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{36DF6400-861A-406F-83B3-AAE47FFD154D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="hammer2" ID="{9BA41686-5AF0-40A2-9BCA-32B34A6B49D7}">
+									<Language>SFX</Language>
+									<AudioFile>hammer2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1058529439"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="hammer2" ID="{9BA41686-5AF0-40A2-9BCA-32B34A6B49D7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="hammer3" ID="{9EFCB20A-7996-45BE-BBF3-D8BA702E531F}" ShortID="325465448">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06175E21-D91B-4501-9F6E-7BA522EFAD94}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{36DF6400-861A-406F-83B3-AAE47FFD154D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="hammer3" ID="{0EC0F987-F62A-4182-AD8A-A1003E6FB312}">
+									<Language>SFX</Language>
+									<AudioFile>hammer3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="864364763"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="hammer3" ID="{0EC0F987-F62A-4182-AD8A-A1003E6FB312}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Wrench" ID="{902C4CF7-6FF2-41BF-8913-069AE8C7D8B6}" ShortID="720292038">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06175E21-D91B-4501-9F6E-7BA522EFAD94}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{489DC6DB-1CA3-4EAF-901F-262BA9A6148E}" WorkUnitID="{36DF6400-861A-406F-83B3-AAE47FFD154D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Wrench_1" ID="{0F77D376-B709-4154-9A11-9E350913D582}" ShortID="931800742">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06175E21-D91B-4501-9F6E-7BA522EFAD94}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{36DF6400-861A-406F-83B3-AAE47FFD154D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Wrench_1" ID="{7E4624AB-2739-4328-B8F1-2F7744F08E9C}">
+									<Language>SFX</Language>
+									<AudioFile>Wrench_1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1070456758"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Wrench_1" ID="{7E4624AB-2739-4328-B8F1-2F7744F08E9C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Wrench_2" ID="{5004DDF6-AF57-4463-B494-E6B1195AFEEF}" ShortID="178501466">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06175E21-D91B-4501-9F6E-7BA522EFAD94}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{36DF6400-861A-406F-83B3-AAE47FFD154D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Wrench_2" ID="{7949DB9E-2AEB-4B58-9E59-A8E65CC33C01}">
+									<Language>SFX</Language>
+									<AudioFile>Wrench_2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="249918937"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Wrench_2" ID="{7949DB9E-2AEB-4B58-9E59-A8E65CC33C01}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Wrench_3" ID="{0388397F-0877-4509-8A39-BED5DFD5552E}" ShortID="1018653279">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06175E21-D91B-4501-9F6E-7BA522EFAD94}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{36DF6400-861A-406F-83B3-AAE47FFD154D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Wrench_3" ID="{FEA5B1BE-605B-473E-B83D-79A3EB0A68DC}">
+									<Language>SFX</Language>
+									<AudioFile>Wrench_3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="268168814"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Wrench_3" ID="{FEA5B1BE-605B-473E-B83D-79A3EB0A68DC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
