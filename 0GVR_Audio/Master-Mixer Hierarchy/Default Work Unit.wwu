@@ -66,6 +66,13 @@
 									</ObjectLists>
 								</Bus>
 								<Bus Name="Micro" ID="{E4873A56-3E3B-46C2-9F57-2668A586450A}">
+									<PropertyList>
+										<Property Name="BusVolume" Type="Real64">
+											<ValueList>
+												<Value>5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ObjectLists>
 										<ObjectList Name="RTPC">
 											<Reference>
@@ -115,7 +122,7 @@
 									<PropertyList>
 										<Property Name="BusVolume" Type="Real64">
 											<ValueList>
-												<Value>-10</Value>
+												<Value>-3</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -165,6 +172,13 @@
 									</ObjectLists>
 								</Bus>
 								<Bus Name="Regular" ID="{EDF9DC90-6B05-49D3-9679-4ABB5CEA4362}">
+									<PropertyList>
+										<Property Name="BusVolume" Type="Real64">
+											<ValueList>
+												<Value>3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ObjectLists>
 										<ObjectList Name="RTPC">
 											<Reference>
@@ -211,6 +225,13 @@
 									</ObjectLists>
 								</Bus>
 								<Bus Name="Ostinato" ID="{F6D4C3A5-BDF0-4653-A2EF-2D157C230591}">
+									<PropertyList>
+										<Property Name="BusVolume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="UserAuxSend0">
 											<ObjectRef Name="Delay_01" ID="{FAAFDC7C-F990-4A1F-8E15-3E8F23370466}" WorkUnitID="{36DF6400-861A-406F-83B3-AAE47FFD154D}"/>
@@ -334,6 +355,46 @@
 																			<Point>
 																				<XPos>17.658</XPos>
 																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</RTPC>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<RTPC Name="" ID="{6898DC9D-2977-4358-A2F2-7E7637F58005}" ShortID="982762878">
+														<PropertyList>
+															<Property Name="PropertyName" Type="string" Value="Lowpass"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="ControlInput">
+																<ObjectRef Name="Gravity_Magnitude" ID="{AC4961E3-E29B-4216-9BD6-474BA5233D04}" WorkUnitID="{2834FD05-ECB1-4D16-B46E-376D717BBB35}"/>
+															</Reference>
+															<Reference Name="Curve">
+																<Custom>
+																	<Curve Name="" ID="{0E18E237-D5C2-4DCD-B4C6-B000297A67B8}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="65537"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>9.81</XPos>
+																				<YPos>18</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>17.658</XPos>
+																				<YPos>55</YPos>
 																				<Flags>37</Flags>
 																			</Point>
 																		</PointList>

@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{6B3FA112-185B-CE92-C81E-0DB503F25BE1}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{598B5878-DFBE-E6DA-CBF6-550CCB0D8C5D}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -80,7 +80,7 @@
 				<GameParameter Id="3164144210" Name="Gravity_Magnitude"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{0B9455FA-1E77-2986-5D8B-13F8ACD65D60}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{F36E45D5-A4BC-6E4D-92E9-002B7F493CEE}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -112,6 +112,10 @@
 					<ShortName>BallHard_3.wav</ShortName>
 					<CachePath>SFX/BallHard_3_818F3B66.wem</CachePath>
 				</File>
+				<File Id="117280538" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>hammer3.wav</ShortName>
+					<CachePath>SFX/hammer3_818F3B66.wem</CachePath>
+				</File>
 				<File Id="156662693" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Mixdown\7\Hyper_7_70bpm.wav</ShortName>
 					<CachePath>SFX/Mixdown/7/Hyper_7_70bpm_FBC78EF0.wem</CachePath>
@@ -123,6 +127,10 @@
 				<File Id="255532721" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Mixdown\2\Hyper_2_70bpm.wav</ShortName>
 					<CachePath>SFX/Mixdown/2/Hyper_2_70bpm_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="284007354" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>hammer1.wav</ShortName>
+					<CachePath>SFX/hammer1_818F3B66.wem</CachePath>
 				</File>
 				<File Id="308638575" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Mixdown\8\Regular_8_70bpm.wav</ShortName>
@@ -152,6 +160,14 @@
 					<ShortName>Mixdown\1\Base_1_70bpm.wav</ShortName>
 					<CachePath>SFX/Mixdown/1/Base_1_70bpm_FBC78EF0.wem</CachePath>
 				</File>
+				<File Id="437638068" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>hammer2.wav</ShortName>
+					<CachePath>SFX/hammer2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="490023512" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Wrench_1.wav</ShortName>
+					<CachePath>SFX/Wrench_1_818F3B66.wem</CachePath>
+				</File>
 				<File Id="501752341" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Mixdown\7\Base_7_70bpm.wav</ShortName>
 					<CachePath>SFX/Mixdown/7/Base_7_70bpm_FBC78EF0.wem</CachePath>
@@ -176,6 +192,10 @@
 					<ShortName>Mixdown\6\Regular_6_70bpm.wav</ShortName>
 					<CachePath>SFX/Mixdown/6/Regular_6_70bpm_FBC78EF0.wem</CachePath>
 				</File>
+				<File Id="690484397" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Wrench_2.wav</ShortName>
+					<CachePath>SFX/Wrench_2_818F3B66.wem</CachePath>
+				</File>
 				<File Id="742677165" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Mixdown\7\Regular_7_70bpm.wav</ShortName>
 					<CachePath>SFX/Mixdown/7/Regular_7_70bpm_FBC78EF0.wem</CachePath>
@@ -187,6 +207,10 @@
 				<File Id="777490680" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Mixdown\1\Hyper_1_70bpm.wav</ShortName>
 					<CachePath>SFX/Mixdown/1/Hyper_1_70bpm_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="780784687" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Wrench_3.wav</ShortName>
+					<CachePath>SFX/Wrench_3_818F3B66.wem</CachePath>
 				</File>
 				<File Id="785776972" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Mixdown\4\Base_4_70bpm.wav</ShortName>
@@ -249,6 +273,13 @@
 						<MediaRef Id="1067329135"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="703486095" Name="Hammer" DurationType="OneShot" DurationMin="0.6925" DurationMax="1.0020626">
+					<MediaRefs>
+						<MediaRef Id="117280538"/>
+						<MediaRef Id="284007354"/>
+						<MediaRef Id="437638068"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="423926465" Name="MugHard" DurationType="OneShot" DurationMin="0.5306042" DurationMax="0.76229167">
 					<MediaRefs>
 						<MediaRef Id="630890065"/>
@@ -293,8 +324,15 @@
 						<MediaRef Id="1072400187"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="1797317650" Name="Wrench" DurationType="OneShot" DurationMin="0.5838125" DurationMax="0.84033334">
+					<MediaRefs>
+						<MediaRef Id="490023512"/>
+						<MediaRef Id="690484397"/>
+						<MediaRef Id="780784687"/>
+					</MediaRefs>
+				</Event>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{EDEAC209-4069-4B44-1D1A-DA63472A7D4C}</FileHash>
+	<FileHash>{11B2C5D9-6270-0CC1-FF77-0734F6C60405}</FileHash>
 </SoundBanksInfo>
